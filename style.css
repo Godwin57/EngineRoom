@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +5,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 body {
   background-color: #f9f9f9;
   color: #222;
   scroll-behavior: smooth;
   line-height: 1.6;
 }
-
 
 .navbar {
   background: rgba(0, 0, 0, 0.85);
@@ -34,14 +31,14 @@ body {
   font-weight: 700;
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.logo img{
+.logo img {
   height: 30px;
   width: 30px;
   background-color: red;
@@ -75,9 +72,8 @@ body {
   color: #f4b400;
 }
 
-
 .hero {
-  background-image: url("./images\ \(14\).jpeg");
+  background-image: url("./images_\(14\).jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -130,8 +126,7 @@ body {
   background: #e09b00;
 }
 
-
-.scroll-down a, 
+.scroll-down a,
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -150,7 +145,6 @@ body {
 .back-to-top:hover {
   background: #e09b00;
 }
-
 
 .featured {
   padding: 100px 40px;
@@ -172,7 +166,7 @@ body {
 .product-card {
   background: #fdfdfd;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.3s ease;
 }
@@ -338,7 +332,6 @@ footer {
   }
 }
 
-
 .about {
   background: url("images/about-bg.jpg") no-repeat center center/cover;
   min-height: 100vh;
@@ -355,8 +348,10 @@ footer {
 .about::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgb(0, 0, 0);
   z-index: 1;
 }
@@ -490,7 +485,7 @@ footer {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #f9f9f9;
   color: #333;
   line-height: 1.6;
@@ -526,7 +521,6 @@ body {
   font-weight: 500;
   transition: color 0.3s;
 }
-
 
 .cart-icon i {
   color: white;
@@ -564,7 +558,7 @@ body {
   background: #fff;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form label {
@@ -627,7 +621,7 @@ body {
 }
 
 .contact-details .btn.whatsapp {
-  background: #25D366;
+  background: #25d366;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 6px;
@@ -696,7 +690,8 @@ footer {
 .contact-page {
   text-align: center;
   padding: 60px 20px;
-  background: url('https://cdn.pixabay.com/photo/2017/02/19/15/28/desk-2084046_1280.jpg') no-repeat center center/cover;
+  background: url("https://cdn.pixabay.com/photo/2017/02/19/15/28/desk-2084046_1280.jpg")
+    no-repeat center center/cover;
   color: white;
 }
 
@@ -729,7 +724,7 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -786,11 +781,10 @@ body {
   color: #f2b705;
 }
 
-
 .search-section {
   text-align: center;
   padding: 80px 20px;
-  background: url('fashion-bg.jpg') center/cover no-repeat;
+  background: url("fashion-bg.jpg") center/cover no-repeat;
   color: white;
 }
 
@@ -822,14 +816,14 @@ body {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .product-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product-card img {
@@ -881,7 +875,6 @@ body {
   color: #f2b705;
 }
 
-
 footer {
   background: #111;
   color: white;
@@ -889,7 +882,6 @@ footer {
   padding: 20px 0;
   font-size: 0.9rem;
 }
-
 
 @media (max-width: 768px) {
   .navbar ul {
@@ -938,7 +930,6 @@ footer {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
-
 .order-summary {
   flex: 1 1 300px;
   background: rgba(255, 255, 255, 0.08);
@@ -969,7 +960,6 @@ footer {
   color: #f2b705;
   font-size: 1.2rem;
 }
-
 
 .payment-form {
   flex: 1 1 350px;
@@ -1050,4 +1040,3 @@ footer {
   top: 8px;
   right: 10px;
 }
-
