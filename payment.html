@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment | ENGINE ROOM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+          <span>ENGINE ROOM</span>
+          <img src="./engin logo.jpg" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="payment.html">Payment</a></li>
+            <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+    
+    
+    
+          </ul>
+        </nav>
+      </header>
+
+
+    <section class="payment">
+        <h2>Secure Payment</h2>
+        <p>Complete your order below.</p>
+
+        <div class="payment-container">
+           
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <ul>
+                    <li>Multimeter — ₦35,000</li>
+                    <li>Drilling Machine — ₦70,000</li>
+                    <li>Wheelbarrow — ₦70,000</li>
+                </ul>
+                <h4>Total: ₦175,000</h4>
+            </div>
+
+           
+            <form class="payment-form">
+                <h3>Billing Details</h3>
+                <label>Full Name:</label>
+                <input type="text" placeholder="Enter your full name" required />
+
+                <label>Email Address:</label>
+                <input type="email" placeholder="Enter your email" required />
+
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="e.g. 7042379212" required />
+
+                <label>Payment Method:</label>
+                <select required>
+                    <option value="">Select Method</option>
+                    <option value="card">Debit/Credit Card</option>
+                    <option value="transfer">Bank Transfer</option>
+                    <option value="delivery">Cash on Delivery</option>
+                </select>
+
+                <button type="submit" class="btn pay-btn" style="color: white;">Confirm Payment</button>
+            </form>
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/2347042379212" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ENGINE ROOM. All rights reserved.</p>
+    </footer>
+    <script src="java.js"> </script>
+</body>
+
+</html>
